@@ -1,0 +1,1925 @@
+{
+  "Name": "Vicon",               /* Free to edit */
+  "DeviceName": "Nexus",     /* Edit only when actual device name differs */
+  "APIKey": "67d83e9aa8ce4a4c82578bbb32fea52c",  /* NOT used */
+  "Path": "C:\\Program Files (x86)\\Empatica\\EmpaticaBLEServer\\EmpaticaBLEServer.exe",  /* NOT used */
+  "Ip": "127.0.0.1",          /* Edit only when Empatica Stream Server settings differs */
+  "Port": 8888,              /* Edit only when Empatica Stream Server settings differs */
+  "Streamers": [
+    {
+      "InletName": "Markers_position_x", /* Do NOT edit */
+      "Name": "marker_pos_x", /* NOT used */
+      "Type": "marker_pos_x", /* Do NOT edit */
+      "NbChannel": 64, /* Do NOT edit */
+      "ChFormat": "Float32", /* Do NOT edit */
+      "SRate": 100, /* Do NOT edit */
+      "Channels": [
+        {
+          "Label": "marker_0_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_1_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_2_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_3_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_4_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_5_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_6_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_7_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_8_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_9_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_10_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_11_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_12_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_13_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_14_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_15_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_16_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_17_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_18_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_19_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_20_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_21_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_22_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_23_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_24_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_25_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_26_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_27_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_28_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_29_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_30_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_31_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_32_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_33_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_34_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_35_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_36_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_37_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_38_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_39_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_40_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_41_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_42_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_43_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_44_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_45_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_46_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_47_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_48_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_49_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_50_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_51_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_52_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_53_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_54_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_55_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_56_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_57_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_58_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_59_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_60_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_61_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_62_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_63_pos_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Vicon", /* Free to edit */
+        "Model": "", /* Free to edit */
+        "Serial": "", /* Free to edit */
+        "Config": "", /* Free to edit */
+        "Location": "" /* Free to edit */
+      },
+      "Sync": {
+        "TimeSource": "Mod0", /* Edit to change timestamp source (Mod0, Mod1, Mod2) */
+        "OffsetMean": 0.1, /* Edit to change latency for this specific stream */
+        "CanDropSamples": false, /* Edit to indicate if there could be dropped samples */
+        "Ipo": "All", /* Edit to change inlet processing options (None, Clocksync, Dejitter, Monotonize, Threadsafe, All) for recorder app */
+        "Opo": "None", /* Edit to change outlet processing options (None, Monotonize, Dejitter, Ets4Dsr, All) for client app */
+        "DriftCoeff": 0.001, /* Edit to change the coefficient drift update algorithm (typical: 0.01->0.0001) */
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Markers_position_y", /* Do NOT edit */
+      "Name": "marker_pos_y", /* NOT used */
+      "Type": "marker_pos_y", /* Do NOT edit */
+      "NbChannel": 64, /* Do NOT edit */
+      "ChFormat": "Float32", /* Do NOT edit */
+      "SRate": 100, /* Do NOT edit */
+      "Channels": [
+        {
+          "Label": "marker_0_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_1_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_2_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_3_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_4_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_5_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_6_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_7_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_8_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_9_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_10_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_11_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_12_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_13_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_14_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_15_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_16_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_17_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_18_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_19_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_20_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_21_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_22_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_23_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_24_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_25_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_26_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_27_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_28_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_29_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_30_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_31_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_32_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_33_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_34_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_35_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_36_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_37_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_38_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_39_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_40_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_41_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_42_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_43_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_44_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_45_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_46_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_47_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_48_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_49_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_50_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_51_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_52_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_53_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_54_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_55_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_56_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_57_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_58_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_59_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_60_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_61_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_62_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_63_pos_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Vicon", /* Free to edit */
+        "Model": "", /* Free to edit */
+        "Serial": "", /* Free to edit */
+        "Config": "", /* Free to edit */
+        "Location": "" /* Free to edit */
+      },
+      "Sync": {
+        "TimeSource": "Mod0", /* Edit to change timestamp source (Mod0, Mod1, Mod2) */
+        "OffsetMean": 0.1, /* Edit to change latency for this specific stream */
+        "CanDropSamples": false, /* Edit to indicate if there could be dropped samples */
+        "Ipo": "All", /* Edit to change inlet processing options (None, Clocksync, Dejitter, Monotonize, Threadsafe, All) for recorder app */
+        "Opo": "None", /* Edit to change outlet processing options (None, Monotonize, Dejitter, Ets4Dsr, All) for client app */
+        "DriftCoeff": 0.001, /* Edit to change the coefficient drift update algorithm (typical: 0.01->0.0001) */
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Markers_position_z", /* Do NOT edit */
+      "Name": "marker_pos_z", /* NOT used */
+      "Type": "marker_pos_z", /* Do NOT edit */
+      "NbChannel": 64, /* Do NOT edit */
+      "ChFormat": "Float32", /* Do NOT edit */
+      "SRate": 100, /* Do NOT edit */
+      "Channels": [
+        {
+          "Label": "marker_0_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_1_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_2_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_3_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_4_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_5_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_6_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_7_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_8_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_9_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_10_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_11_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_12_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_13_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_14_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_15_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_16_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_17_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_18_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_19_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_20_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_21_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_22_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_23_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_24_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_25_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_26_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_27_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_28_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_29_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_30_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_31_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_32_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_33_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_34_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_35_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_36_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_37_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_38_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_39_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_40_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_41_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_42_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_43_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_44_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_45_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_46_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_47_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_48_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_49_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_50_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_51_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_52_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_53_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_54_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_55_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_56_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_57_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_58_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_59_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_60_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_61_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_62_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_63_pos_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        }
+      ],
+
+      "Hardware": {
+        "Manufacturer": "Vicon", /* Free to edit */
+        "Model": "", /* Free to edit */
+        "Serial": "", /* Free to edit */
+        "Config": "", /* Free to edit */
+        "Location": "" /* Free to edit */
+      },
+      "Sync": {
+        "TimeSource": "Mod0", /* Edit to change timestamp source (Mod0, Mod1, Mod2) */
+        "OffsetMean": 0.1, /* Edit to change latency for this specific stream */
+        "CanDropSamples": false, /* Edit to indicate if there could be dropped samples */
+        "Ipo": "All", /* Edit to change inlet processing options (None, Clocksync, Dejitter, Monotonize, Threadsafe, All) for recorder app */
+        "Opo": "None", /* Edit to change outlet processing options (None, Monotonize, Dejitter, Ets4Dsr, All) for client app */
+        "DriftCoeff": 0.001, /* Edit to change the coefficient drift update algorithm (typical: 0.01->0.0001) */
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Markers_occluded", /* Do NOT edit */
+      "Name": "marker_occl", /* NOT used */
+      "Type": "marker_occl", /* Do NOT edit */
+      "NbChannel": 64, /* Do NOT edit */
+      "ChFormat": "Float32", /* Do NOT edit */
+      "SRate": 100, /* Do NOT edit */
+      "Channels": [
+        {
+          "Label": "marker_0_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_1_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_2_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_3_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_4_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_5_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_6_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_7_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_8_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_9_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_10_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_11_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_12_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_13_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_14_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_15_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_16_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_17_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_18_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_19_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_20_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_21_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_22_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_23_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_24_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_25_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_26_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_27_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_28_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_29_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_30_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_31_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_32_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_33_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_34_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_35_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_36_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_37_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_38_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_39_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_40_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_41_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_42_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_43_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_44_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_45_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_46_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_47_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_48_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_49_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_50_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_51_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_52_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_53_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_54_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_55_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_56_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_57_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_58_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_59_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_60_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_61_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_62_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "marker_63_occl", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Vicon", /* Free to edit */
+        "Model": "", /* Free to edit */
+        "Serial": "", /* Free to edit */
+        "Config": "", /* Free to edit */
+        "Location": "" /* Free to edit */
+      },
+      "Sync": {
+        "TimeSource": "Mod0", /* Edit to change timestamp source (Mod0, Mod1, Mod2) */
+        "OffsetMean": 0.1, /* Edit to change latency for this specific stream */
+        "CanDropSamples": false, /* Edit to indicate if there could be dropped samples */
+        "Ipo": "All", /* Edit to change inlet processing options (None, Clocksync, Dejitter, Monotonize, Threadsafe, All) for recorder app */
+        "Opo": "None", /* Edit to change outlet processing options (None, Monotonize, Dejitter, Ets4Dsr, All) for client app */
+        "DriftCoeff": 0.001, /* Edit to change the coefficient drift update algorithm (typical: 0.01->0.0001) */
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Plate_force_x", /* Do NOT edit */
+      "Name": "plate_f_x", /* NOT used */
+      "Type": "plate_f_x", /* Do NOT edit */
+      "NbChannel": 4, /* Do NOT edit */
+      "ChFormat": "Float32", /* Do NOT edit */
+      "SRate": 100, /* Do NOT edit */
+      "Channels": [
+        {
+          "Label": "plate_0_f_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_1_f_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_2_f_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_3_f_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        }
+      ],
+
+      "Hardware": {
+        "Manufacturer": "Vicon", /* Free to edit */
+        "Model": "", /* Free to edit */
+        "Serial": "", /* Free to edit */
+        "Config": "", /* Free to edit */
+        "Location": "" /* Free to edit */
+      },
+      "Sync": {
+        "TimeSource": "Mod0", /* Edit to change timestamp source (Mod0, Mod1, Mod2) */
+        "OffsetMean": 0.1, /* Edit to change latency for this specific stream */
+        "CanDropSamples": false, /* Edit to indicate if there could be dropped samples */
+        "Ipo": "All", /* Edit to change inlet processing options (None, Clocksync, Dejitter, Monotonize, Threadsafe, All) for recorder app */
+        "Opo": "None", /* Edit to change outlet processing options (None, Monotonize, Dejitter, Ets4Dsr, All) for client app */
+        "DriftCoeff": 0.001, /* Edit to change the coefficient drift update algorithm (typical: 0.01->0.0001) */
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Plate_force_y", /* Do NOT edit */
+      "Name": "plate_f_y", /* NOT used */
+      "Type": "plate_f_y", /* Do NOT edit */
+      "NbChannel": 4, /* Do NOT edit */
+      "ChFormat": "Float32", /* Do NOT edit */
+      "SRate": 100, /* Do NOT edit */
+      "Channels": [
+        {
+          "Label": "plate_0_f_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_1_f_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_2_f_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_3_f_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        }
+      ],
+
+      "Hardware": {
+        "Manufacturer": "Vicon", /* Free to edit */
+        "Model": "", /* Free to edit */
+        "Serial": "", /* Free to edit */
+        "Config": "", /* Free to edit */
+        "Location": "" /* Free to edit */
+      },
+      "Sync": {
+        "TimeSource": "Mod0", /* Edit to change timestamp source (Mod0, Mod1, Mod2) */
+        "OffsetMean": 0.1, /* Edit to change latency for this specific stream */
+        "CanDropSamples": false, /* Edit to indicate if there could be dropped samples */
+        "Ipo": "All", /* Edit to change inlet processing options (None, Clocksync, Dejitter, Monotonize, Threadsafe, All) for recorder app */
+        "Opo": "None", /* Edit to change outlet processing options (None, Monotonize, Dejitter, Ets4Dsr, All) for client app */
+        "DriftCoeff": 0.001, /* Edit to change the coefficient drift update algorithm (typical: 0.01->0.0001) */
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Plate_force_z", /* Do NOT edit */
+      "Name": "plate_f_z", /* NOT used */
+      "Type": "plate_f_z", /* Do NOT edit */
+      "NbChannel": 4, /* Do NOT edit */
+      "ChFormat": "Float32", /* Do NOT edit */
+      "SRate": 100, /* Do NOT edit */
+      "Channels": [
+        {
+          "Label": "plate_0_f_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_1_f_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_2_f_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_3_f_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        }
+      ],
+
+      "Hardware": {
+        "Manufacturer": "Vicon", /* Free to edit */
+        "Model": "", /* Free to edit */
+        "Serial": "", /* Free to edit */
+        "Config": "", /* Free to edit */
+        "Location": "" /* Free to edit */
+      },
+      "Sync": {
+        "TimeSource": "Mod0", /* Edit to change timestamp source (Mod0, Mod1, Mod2) */
+        "OffsetMean": 0.1, /* Edit to change latency for this specific stream */
+        "CanDropSamples": false, /* Edit to indicate if there could be dropped samples */
+        "Ipo": "All", /* Edit to change inlet processing options (None, Clocksync, Dejitter, Monotonize, Threadsafe, All) for recorder app */
+        "Opo": "None", /* Edit to change outlet processing options (None, Monotonize, Dejitter, Ets4Dsr, All) for client app */
+        "DriftCoeff": 0.001, /* Edit to change the coefficient drift update algorithm (typical: 0.01->0.0001) */
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Plate_moment_x", /* Do NOT edit */
+      "Name": "plate_M_x", /* NOT used */
+      "Type": "plate_M_x", /* Do NOT edit */
+      "NbChannel": 4, /* Do NOT edit */
+      "ChFormat": "Float32", /* Do NOT edit */
+      "SRate": 100, /* Do NOT edit */
+      "Channels": [
+        {
+          "Label": "plate_0_M_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_1_M_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_2_M_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_3_M_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        }
+      ],
+
+      "Hardware": {
+        "Manufacturer": "Vicon", /* Free to edit */
+        "Model": "", /* Free to edit */
+        "Serial": "", /* Free to edit */
+        "Config": "", /* Free to edit */
+        "Location": "" /* Free to edit */
+      },
+      "Sync": {
+        "TimeSource": "Mod0", /* Edit to change timestamp source (Mod0, Mod1, Mod2) */
+        "OffsetMean": 0.1, /* Edit to change latency for this specific stream */
+        "CanDropSamples": false, /* Edit to indicate if there could be dropped samples */
+        "Ipo": "All", /* Edit to change inlet processing options (None, Clocksync, Dejitter, Monotonize, Threadsafe, All) for recorder app */
+        "Opo": "None", /* Edit to change outlet processing options (None, Monotonize, Dejitter, Ets4Dsr, All) for client app */
+        "DriftCoeff": 0.001, /* Edit to change the coefficient drift update algorithm (typical: 0.01->0.0001) */
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Plate_moment_y", /* Do NOT edit */
+      "Name": "plate_M_y", /* NOT used */
+      "Type": "plate_M_y", /* Do NOT edit */
+      "NbChannel": 4, /* Do NOT edit */
+      "ChFormat": "Float32", /* Do NOT edit */
+      "SRate": 100, /* Do NOT edit */
+      "Channels": [
+        {
+          "Label": "plate_0_M_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_1_M_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_2_M_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_3_M_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        }
+      ],
+
+      "Hardware": {
+        "Manufacturer": "Vicon", /* Free to edit */
+        "Model": "", /* Free to edit */
+        "Serial": "", /* Free to edit */
+        "Config": "", /* Free to edit */
+        "Location": "" /* Free to edit */
+      },
+      "Sync": {
+        "TimeSource": "Mod0", /* Edit to change timestamp source (Mod0, Mod1, Mod2) */
+        "OffsetMean": 0.1, /* Edit to change latency for this specific stream */
+        "CanDropSamples": false, /* Edit to indicate if there could be dropped samples */
+        "Ipo": "All", /* Edit to change inlet processing options (None, Clocksync, Dejitter, Monotonize, Threadsafe, All) for recorder app */
+        "Opo": "None", /* Edit to change outlet processing options (None, Monotonize, Dejitter, Ets4Dsr, All) for client app */
+        "DriftCoeff": 0.001, /* Edit to change the coefficient drift update algorithm (typical: 0.01->0.0001) */
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Plate_moment_z", /* Do NOT edit */
+      "Name": "plate_M_z", /* NOT used */
+      "Type": "plate_M_z", /* Do NOT edit */
+      "NbChannel": 4, /* Do NOT edit */
+      "ChFormat": "Float32", /* Do NOT edit */
+      "SRate": 100, /* Do NOT edit */
+      "Channels": [
+        {
+          "Label": "plate_0_M_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_1_M_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_2_M_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_3_M_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        }
+      ],
+
+      "Hardware": {
+        "Manufacturer": "Vicon", /* Free to edit */
+        "Model": "", /* Free to edit */
+        "Serial": "", /* Free to edit */
+        "Config": "", /* Free to edit */
+        "Location": "" /* Free to edit */
+      },
+      "Sync": {
+        "TimeSource": "Mod0", /* Edit to change timestamp source (Mod0, Mod1, Mod2) */
+        "OffsetMean": 0.1, /* Edit to change latency for this specific stream */
+        "CanDropSamples": false, /* Edit to indicate if there could be dropped samples */
+        "Ipo": "All", /* Edit to change inlet processing options (None, Clocksync, Dejitter, Monotonize, Threadsafe, All) for recorder app */
+        "Opo": "None", /* Edit to change outlet processing options (None, Monotonize, Dejitter, Ets4Dsr, All) for client app */
+        "DriftCoeff": 0.001, /* Edit to change the coefficient drift update algorithm (typical: 0.01->0.0001) */
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Plate_cop_x", /* Do NOT edit */
+      "Name": "plate_cop_x", /* NOT used */
+      "Type": "plate_cop_x", /* Do NOT edit */
+      "NbChannel": 4, /* Do NOT edit */
+      "ChFormat": "Float32", /* Do NOT edit */
+      "SRate": 100, /* Do NOT edit */
+      "Channels": [
+        {
+          "Label": "plate_0_cop_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_1_cop_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_2_cop_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_3_cop_x", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        }
+      ],
+
+      "Hardware": {
+        "Manufacturer": "Vicon", /* Free to edit */
+        "Model": "", /* Free to edit */
+        "Serial": "", /* Free to edit */
+        "Config": "", /* Free to edit */
+        "Location": "" /* Free to edit */
+      },
+      "Sync": {
+        "TimeSource": "Mod0", /* Edit to change timestamp source (Mod0, Mod1, Mod2) */
+        "OffsetMean": 0.1, /* Edit to change latency for this specific stream */
+        "CanDropSamples": false, /* Edit to indicate if there could be dropped samples */
+        "Ipo": "All", /* Edit to change inlet processing options (None, Clocksync, Dejitter, Monotonize, Threadsafe, All) for recorder app */
+        "Opo": "None", /* Edit to change outlet processing options (None, Monotonize, Dejitter, Ets4Dsr, All) for client app */
+        "DriftCoeff": 0.001, /* Edit to change the coefficient drift update algorithm (typical: 0.01->0.0001) */
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Plate_cop_y", /* Do NOT edit */
+      "Name": "plate_cop_y", /* NOT used */
+      "Type": "plate_cop_y", /* Do NOT edit */
+      "NbChannel": 4, /* Do NOT edit */
+      "ChFormat": "Float32", /* Do NOT edit */
+      "SRate": 100, /* Do NOT edit */
+      "Channels": [
+        {
+          "Label": "plate_0_cop_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_1_cop_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_2_cop_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_3_cop_y", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        }
+      ],
+
+      "Hardware": {
+        "Manufacturer": "Vicon", /* Free to edit */
+        "Model": "", /* Free to edit */
+        "Serial": "", /* Free to edit */
+        "Config": "", /* Free to edit */
+        "Location": "" /* Free to edit */
+      },
+      "Sync": {
+        "TimeSource": "Mod0", /* Edit to change timestamp source (Mod0, Mod1, Mod2) */
+        "OffsetMean": 0.1, /* Edit to change latency for this specific stream */
+        "CanDropSamples": false, /* Edit to indicate if there could be dropped samples */
+        "Ipo": "All", /* Edit to change inlet processing options (None, Clocksync, Dejitter, Monotonize, Threadsafe, All) for recorder app */
+        "Opo": "None", /* Edit to change outlet processing options (None, Monotonize, Dejitter, Ets4Dsr, All) for client app */
+        "DriftCoeff": 0.001, /* Edit to change the coefficient drift update algorithm (typical: 0.01->0.0001) */
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Plate_cop_z", /* Do NOT edit */
+      "Name": "plate_cop_z", /* NOT used */
+      "Type": "plate_cop_z", /* Do NOT edit */
+      "NbChannel": 4, /* Do NOT edit */
+      "ChFormat": "Float32", /* Do NOT edit */
+      "SRate": 100, /* Do NOT edit */
+      "Channels": [
+        {
+          "Label": "plate_0_cop_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_1_cop_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_2_cop_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "plate_3_cop_z", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        }
+      ],
+
+      "Hardware": {
+        "Manufacturer": "Vicon", /* Free to edit */
+        "Model": "", /* Free to edit */
+        "Serial": "", /* Free to edit */
+        "Config": "", /* Free to edit */
+        "Location": "" /* Free to edit */
+      },
+      "Sync": {
+        "TimeSource": "Mod0", /* Edit to change timestamp source (Mod0, Mod1, Mod2) */
+        "OffsetMean": 0.1, /* Edit to change latency for this specific stream */
+        "CanDropSamples": false, /* Edit to indicate if there could be dropped samples */
+        "Ipo": "All", /* Edit to change inlet processing options (None, Clocksync, Dejitter, Monotonize, Threadsafe, All) for recorder app */
+        "Opo": "None", /* Edit to change outlet processing options (None, Monotonize, Dejitter, Ets4Dsr, All) for client app */
+        "DriftCoeff": 0.001, /* Edit to change the coefficient drift update algorithm (typical: 0.01->0.0001) */
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "EMG", /* Do NOT edit */
+      "Name": "emg", /* NOT used */
+      "Type": "emg_sig", /* Do NOT edit */
+      "NbChannel": 16, /* Do NOT edit */
+      "ChFormat": "Float32", /* Do NOT edit */
+      "SRate": 100, /* Do NOT edit */
+      "Channels": [
+        {
+          "Label": "emg_0", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "emg_1", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "emg_2", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "emg_3", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "emg_4", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "emg_5", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "emg_6", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "emg_7", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "emg_8", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "emg_9", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "emg_10", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "emg_11", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "emg_12", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "emg_13", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "emg_14", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "emg_15", /* Edit to change the label in data logs */
+          "Unit": "?", /* Edit to change the unit in data logs */
+          "Precision": 0 /* Edit to change the precision in data logs and recorder app */
+        }
+      ],
+
+      "Hardware": {
+        "Manufacturer": "Vicon", /* Free to edit */
+        "Model": "", /* Free to edit */
+        "Serial": "", /* Free to edit */
+        "Config": "", /* Free to edit */
+        "Location": "" /* Free to edit */
+      },
+      "Sync": {
+        "TimeSource": "Mod0", /* Edit to change timestamp source (Mod0, Mod1, Mod2) */
+        "OffsetMean": 0.1, /* Edit to change latency for this specific stream */
+        "CanDropSamples": false, /* Edit to indicate if there could be dropped samples */
+        "Ipo": "All", /* Edit to change inlet processing options (None, Clocksync, Dejitter, Monotonize, Threadsafe, All) for recorder app */
+        "Opo": "None", /* Edit to change outlet processing options (None, Monotonize, Dejitter, Ets4Dsr, All) for client app */
+        "DriftCoeff": 0.001, /* Edit to change the coefficient drift update algorithm (typical: 0.01->0.0001) */
+        "JitterCoeff": 0.8
+      }
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "Name": "E4",               /* Free to edit */
+  "DeviceName": "eb1508",     /* Edit only when actual device name differs */
+  "APIKey": "67d83e9aa8ce4a4c82578bbb32fea52c",  /* NOT used */
+  "Path": "C:\\Program Files (x86)\\Empatica\\EmpaticaBLEServer\\EmpaticaBLEServer.exe",  /* NOT used */
+  "Ip": "127.0.0.1",          /* Edit only when Empatica Stream Server settings differs */
+  "Port": 28000,              /* Edit only when Empatica Stream Server settings differs */
+  "Streamers": [
+    {
+      "InletName":"E4_Acc",   /* Do NOT edit */
+      "Name": "",             /* NOT used */
+      "Type": "acc",          /* Do NOT edit */
+      "NbChannel": 3,         /* Do NOT edit */
+      "ChFormat": "Double64", /* Do NOT edit */
+      "SRate": 32,            /* Do NOT edit */
+      "Channels": [
+        {
+          "Label": "ACX",     /* Edit to change the label in data logs */
+          "Unit": "?",        /* Edit to change the unit in data logs */
+          "Precision": 0      /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "ACY",     /* Edit to change the label in data logs */
+          "Unit": "?",        /* Edit to change the unit in data logs */
+          "Precision": 0      /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "ACZ",     /* Edit to change the label in data logs */
+          "Unit": "?",        /* Edit to change the unit in data logs */
+          "Precision": 0      /* Edit to change the precision in data logs and recorder app */
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Empatica", /* Free to edit */
+        "Model": "",                /* Free to edit */
+        "Serial": "",               /* Free to edit */
+        "Config": "",               /* Free to edit */
+        "Location": ""              /* Free to edit */
+      },
+      "Sync": {
+        "TimeSource": "Mod0",       /* Edit to change timestamp source (Mod0, Mod1, Mod2) */
+        "OffsetMean": 0.1,          /* Edit to change latency for this specific stream */
+        "CanDropSamples": false,    /* Edit to indicate if there could be dropped samples */
+        "Ipo": "All",               /* Edit to change inlet processing options (None, Clocksync, Dejitter, Monotonize, Threadsafe, All) for recorder app */
+        "Opo": "None",              /* Edit to change outlet processing options (None, Monotonize, Dejitter, Ets4Dsr, All) for client app */
+        "DriftCoeff": 0.001,        /* Edit to change the coefficient drift update algorithm (typical: 0.01->0.0001) */
+        "JitterCoeff": 0.8    
+      }
+    },                              /* Same remarks apply for the rest: */
+    {
+      "InletName":"E4_Bvp",
+      "Name": "",
+      "Type": "bvp",
+      "NbChannel": 1,
+      "ChFormat": "Double64",
+      "SRate": 64,
+      "Channels": [
+        {
+          "Label": "Bvp",
+          "Unit": "?",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Empatica",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 1.4,
+        "CanDropSamples": false,
+        "Ipo": "All",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8     
+      }
+    },
+    {
+      "InletName":"E4_Gsr",
+      "Name": "",
+      "Type": "gsr",
+      "NbChannel": 1,
+      "ChFormat": "Double64",
+      "SRate": 4,
+      "Channels": [
+        {
+          "Label": "",
+          "Unit": "μS",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Empatica",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.1,
+        "CanDropSamples": false,
+        "Ipo": "All",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.5
+      }
+    },
+    {
+      "InletName":"E4_Ibi",
+      "Name": "",      
+      "Type": "ibi",
+      "NbChannel": 1,
+      "ChFormat": "Double64",
+      "SRate": 0,
+      "Channels": [
+        {
+          "Label": "Ibi",
+          "Unit": "?",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Empatica",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.1,
+        "CanDropSamples": false,
+        "Ipo": "All",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.5
+      }
+    },
+    {      
+      "InletName":"E4_Temperature",
+      "Name": "",
+      "Type": "tmp",
+      "NbChannel": 1,
+      "ChFormat": "Double64",
+      "SRate": 4,
+      "Channels": [
+        {
+          "Label": "T",
+          "Unit": "°C",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Empatica",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.1,
+        "CanDropSamples": false,
+        "Ipo": "All",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.5
+      }
+    },
+    {
+      "InletName":"E4_Battery",
+      "Name": "",
+      "Type": "bat",
+      "NbChannel": 1,
+      "ChFormat": "Double64",
+      "SRate": 0,
+      "Channels": [
+        {
+          "Label": "Level",
+          "Unit": "",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Empatica",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.1,
+        "CanDropSamples": false,
+        "Ipo": "All",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.5
+      }
+    },
+    {
+      "InletName":"E4_Tag",
+      "Name": "",
+      "Type": "tag",
+      "NbChannel": 1,
+      "ChFormat": "String",
+      "SRate": 0,
+      "Channels": [
+        {
+          "Label": "Tag",
+          "Unit": "",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Empatica",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.12,
+        "CanDropSamples": false,
+        "Ipo": "All",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.5
+      }
+    },
+    {
+      "InletName":"E4_Hr",
+      "Name": "",
+      "Type": "hr",
+      "NbChannel": 1,
+      "ChFormat": "Double64",
+      "SRate": 0,
+      "Channels": [
+        {
+          "Label": "Hr",
+          "Unit": "",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Empatica",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.1,
+        "CanDropSamples": false,
+        "Ipo": "All",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.5
+      }
+    }
+  ]
+}

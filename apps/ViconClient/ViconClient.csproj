@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<RootNamespace>ViconClient</RootNamespace>
+		<UseWindowsForms>true</UseWindowsForms>
+		<Platforms>AnyCPU;x86;x64</Platforms>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="lsl.dll" CopyToOutputDirectory="Always" />
+		<None Include="config.json" CopyToOutputDirectory="PreserveNewest" Condition="Exists('config.json')" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.Text.Json" Version="6.0.5" />
+		<ProjectReference Include="..\Libs\libfmax-Csharp\libfmax-Csharp.csproj" />	
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="Interop.DataServerLib">
+	    <HintPath>Interop.DataServerLib.dll</HintPath>
+	  </Reference>
+	  <Reference Include="ViconDataStreamSDK_DotNET">
+	    <HintPath>..\..\..\..\..\Downloads\ViconDataStreamSDK_1.12_145507h\20230413_145507h\Release\Win64\Vicon\CrossMarket\DataStream\ViconDataStreamSDK_DotNETTest\ViconDataStreamSDK_DotNET.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+</Project>
