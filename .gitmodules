@@ -1,0 +1,33 @@
+[submodule "apps/AxDashboard"]
+	path = apps/AxDashboard
+	url = ../AugmentX_Dashboard.git
+[submodule "apps/CameraCapture"]
+	path = apps/CameraCapture
+	url = ../CameraCapture_lsl_app.git
+[submodule "apps/CaptivClient"]
+	path = apps/CaptivClient
+	url = ../CaptivClient_lsl_app.git
+[submodule "apps/DataManager"]
+	path = apps/DataManager
+	url = ../DataManager_lsl_app.git
+[submodule "apps/EmpaticaClient"]
+	path = apps/EmpaticaClient
+	url = ../EmpaticaClient_lsl_app.git
+[submodule "apps/EquivitalClient"]
+	path = apps/EquivitalClient
+	url = ../EquivitalClient_lsl_app.git
+[submodule "apps/ErgoPak"]
+	path = apps/ErgoPak
+	url = ../ErgoPak_lsl_app.git
+[submodule "apps/KeMoStreamer"]
+	path = apps/KeMoStreamer
+	url = ../KeMoStreamer_lsl_app.git
+[submodule "apps/QualisysClient"]
+	path = apps/QualisysClient
+	url = ../Qualisys_lsl_app.git
+[submodule "apps/ErgoFet"]
+	path = apps/ErgoFet
+	url = ../ErgoFet.git
+[submodule "apps/MoticonClient"]
+	path = apps/MoticonClient
+	url = ../MoticonClient.git

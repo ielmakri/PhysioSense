@@ -1,0 +1,5 @@
+# Autodetect text files
+* text=auto
+
+# Linux
+*.sh text eol=lf
