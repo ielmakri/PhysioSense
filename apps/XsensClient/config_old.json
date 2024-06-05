@@ -1,0 +1,2011 @@
+{
+  "Name": "Xsens", /* Free to edit */
+  "DeviceName": "Awinda", /* Edit only when actual device name differs */
+  "APIKey": "67d83e9aa8ce4a4c82578bbb32fea52c", /* NOT used */
+  "Path": "C:\\Program Files (x86)\\Empatica\\EmpaticaBLEServer\\EmpaticaBLEServer.exe", /* NOT used */
+  "Ip": "127.0.0.1", /* Edit only when Xsens Stream Server settings differs */
+  "Port": 9763, /* Edit only when Xsens Stream Server settings differs */
+  "Streamers": [
+    {
+      "InletName": "Pelvis_position",
+      "Name": "Pelvis position",
+      "Type": "pelv_pos",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "X",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Y",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Z",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Pelvis_rotation",
+      "Name": "Pelvis rotation",
+      "Type": "pelv_rot",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "q1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q4",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Right_upper_leg_position",
+      "Name": "Right upper leg position",
+      "Type": "upper_leg_pos",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "X",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Y",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Z",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Right_upper_leg_rotation",
+      "Name": "Right upper leg rotation",
+      "Type": "upper_leg_rot",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "q1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q4",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Right_lower_leg_position",
+      "Name": "Right lower leg position",
+      "Type": "lower_leg_pos",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "X",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Y",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Z",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Right_lower_leg_rotation",
+      "Name": "Right lower leg rotation",
+      "Type": "lower_leg_rot",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "q1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q4",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Right_foot_position",
+      "Name": "Right foot position",
+      "Type": "foot_pos",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "X",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Y",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Z",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Right_foot_rotation",
+      "Name": "Right foot rotation",
+      "Type": "foot_rot",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "q1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q4",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Right_toe_position",
+      "Name": "Right toe position",
+      "Type": "toe_pos",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "X",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Y",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Z",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Right_toe_rotation",
+      "Name": "Right toe rotation",
+      "Type": "toe_rot",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "q1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q4",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Left_upper_leg_position",
+      "Name": "Left upper leg position",
+      "Type": "upper_leg_pos",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "X",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Y",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Z",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Left_upper_leg_rotation",
+      "Name": "Left upper leg rotation",
+      "Type": "upper_leg_rot",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "q1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q4",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Left_lower_leg_position",
+      "Name": "Left lower leg position",
+      "Type": "lower_leg_pos",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "X",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Y",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Z",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Left_lower_leg_rotation",
+      "Name": "Left lower leg rotation",
+      "Type": "lower_leg_rot",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "q1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q4",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Left_foot_position",
+      "Name": "Left foot position",
+      "Type": "foot_pos",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "X",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Y",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Z",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Left_foot_rotation",
+      "Name": "Left foot rotation",
+      "Type": "foot_rot",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "q1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q4",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Left_toe_position",
+      "Name": "Left toe position",
+      "Type": "toe_pos",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "X",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Y",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Z",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Left_toe_rotation",
+      "Name": "Left toe rotation",
+      "Type": "toe_rot",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "q1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q4",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "L5_position",
+      "Name": "L5 position",
+      "Type": "l5_pos",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "X",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Y",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Z",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "L5_rotation",
+      "Name": "L5 rotation",
+      "Type": "l5_rot",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "q1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q4",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "L3_position",
+      "Name": "L3 position",
+      "Type": "l3_pos",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "X",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Y",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Z",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "L3_rotation",
+      "Name": "L3 rotation",
+      "Type": "l3_rot",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "q1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q4",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "T12_position",
+      "Name": "T12 position",
+      "Type": "t12_pos",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "X",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Y",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Z",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "T12_rotation",
+      "Name": "T12 rotation",
+      "Type": "t12_rot",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "q1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q4",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "T8_position",
+      "Name": "T8 position",
+      "Type": "t8_pos",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "X",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Y",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Z",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "T8_rotation",
+      "Name": "T8 rotation",
+      "Type": "t8_rot",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "q1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q4",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Left_shoulder_position",
+      "Name": "Left shoulder position",
+      "Type": "Left_shoulder_pos",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "X",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Y",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Z",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Left_shoulder_rotation",
+      "Name": "Left shoulder rotation",
+      "Type": "righ_shoulder_rot",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "q1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q4",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Left_upper_arm_position",
+      "Name": "Left upper arm position",
+      "Type": "Left_upper_arm_pos",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "X",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Y",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Z",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Left_upper_arm_rotation",
+      "Name": "Left upper arm rotation",
+      "Type": "Left_upper_arm_rot",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "q1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q4",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Left_forearm_position",
+      "Name": "Righ forarm position",
+      "Type": "Left_forearm_pos",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "X",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Y",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Z",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Left_forearm_rotation",
+      "Name": "Left forearm rotation",
+      "Type": "Left_forearm_rot",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "q1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q4",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Left_hand_position",
+      "Name": "Left hand position",
+      "Type": "Left_hand_pos",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "X",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Y",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Z",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Left_hand_rotation",
+      "Name": "Left hand rotation",
+      "Type": "Left_hand_rot",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "q1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q4",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Right_shoulder_position",
+      "Name": "Right shoulder position",
+      "Type": "shoulder_pos",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "X",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Y",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Z",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Right_shoulder_rotation",
+      "Name": "Right shoulder rotation",
+      "Type": "shoulder_rot",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "q1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q4",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Right_upper_arm_position",
+      "Name": "Right upper arm position",
+      "Type": "upper_arm_pos",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "X",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Y",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Z",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Right_upper_arm_rotation",
+      "Name": "Right upper arm rotation",
+      "Type": "upper_arm_rot",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "q1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q4",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Right_forearm_position",
+      "Name": "Right forarm position",
+      "Type": "forearm_pos",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "X",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Y",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Z",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Right_forearm_rotation",
+      "Name": "Right forearm rotation",
+      "Type": "forearm_rot",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "q1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q4",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Right_hand_position",
+      "Name": "Right hand position",
+      "Type": "hand_pos",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "X",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Y",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Z",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Right_hand_rotation",
+      "Name": "Right hand rotation",
+      "Type": "hand_rot",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "q1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q4",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Neck_position",
+      "Name": "Neck position",
+      "Type": "neck_pos",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "X",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Y",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Z",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Neck_rotation",
+      "Name": "Neck rotation",
+      "Type": "neck_rot",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "q1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q4",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Head_position",
+      "Name": "Head position",
+      "Type": "head_pos",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "X",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Y",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "Z",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Head_rotation",
+      "Name": "Head rotation",
+      "Type": "head_rot",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "q1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "q4",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    }
+  ]
+}

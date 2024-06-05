@@ -1,0 +1,1264 @@
+{
+  "Name": "Xsens", /* Free to edit */
+  "DeviceName": "Awinda", /* Edit only when actual device name differs */
+  "APIKey": "67d83e9aa8ce4a4c82578bbb32fea52c", /* NOT used */
+  "Path": "C:\\Program Files (x86)\\Empatica\\EmpaticaBLEServer\\EmpaticaBLEServer.exe", /* NOT used */
+  "Ip": "127.0.0.1", /* Edit only when Xsens Stream Server settings differs */
+  "Port": 9763, /* Edit only when Xsens Stream Server settings differs */
+  "Streamers": [
+    {
+      "InletName": "Human_pos",
+      "Name": "Human positions",
+      "Type": "hum_pos",
+      "NbChannel": 69,
+      "ChFormat": "Float32",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "pelv_x",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "pelv_y",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "pelv_z",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "r_u_leg_x",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "r_u_leg_y",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "r_u_leg_z",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "r_l_leg_x",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "r_l_leg_y",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "r_l_leg_z",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "r_foot_x",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "r_foot_y",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "r_foot_z",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "r_toe_x",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "r_toe_y",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "r_toe_z",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "l_u_leg_x",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "l_u_leg_y",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "l_u_leg_z",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "l_l_leg_x",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "l_l_leg_y",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "l_l_leg_z",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "l_foot_x",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "l_foot_y",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "l_foot_z",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "l_toe_x",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "l_toe_y",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "l_toe_z",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "L5_x",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "L5_y",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "L5_z",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "L3_x",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "L3_y",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "L3_z",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "T12_x",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "T12_y",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "T12_z",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "T8_x",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "T8_y",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "T8_z",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "l_shoulder_x",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "l_shoulder_y",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "l_shoulder_z",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "l_u_arm_x",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "l_u_arm_y",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "l_u_arm_z",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "l_f_arm_x",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "l_f_arm_y",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "l_f_arm_z",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "l_hand_x",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "l_hand_y",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "l_hand_z",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "r_shoulder_x",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "r_shoulder_y",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "r_shoulder_z",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "r_u_arm_x",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "r_u_arm_y",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "r_u_arm_z",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "r_f_arm_x",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "r_f_arm_y",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "r_f_arm_z",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "r_hand_x",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "r_hand_y",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "r_hand_z",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "head_x",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "head_y",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "head_z",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "neck_x",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "neck_y",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "neck_z",
+          "Unit": "m",
+          "Precision": 5
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Human_rot",
+      "Name": "Human rotation",
+      "Type": "hum_rot",
+      "NbChannel": 69,
+      "ChFormat": "Float32",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "pelv_rot_x",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "pelv_rot_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "pelv_rot_z",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_u_leg_rot_x",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_u_leg_rot_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_u_leg_rot_z",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_l_leg_rot_x",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_l_leg_rot_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_l_leg_rot_z",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_foot_rot_x",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_foot_rot_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_foot_rot_z",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_toe_rot_x",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_toe_rot_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_toe_rot_z",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_u_leg_rot_x",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_u_leg_rot_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_u_leg_rot_z",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_l_leg_rot_x",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_l_leg_rot_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_l_leg_rot_z",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_foot_rot_x",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_foot_rot_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_foot_rot_z",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_toe_rot_x",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_toe_rot_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_toe_rot_z",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "L5_rot_x",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "L5_rot_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "L5_rot_z",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "L3_rot_x",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "L3_rot_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "L3_rot_z",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "T12_rot_x",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "T12_rot_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "T12_rot_z",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "T8_rot_x",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "T8_rot_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "T8_rot_z",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_shoulder_rot_x",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_shoulder_rot_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_shoulder_rot_z",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_u_arm_rot_x",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_u_arm_rot_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_u_arm_rot_z",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_f_arm_rot_x",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_f_arm_rot_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_f_arm_rot_z",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_hand_rot_x",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_hand_rot_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_hand_rot_z",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_shoulder_rot_x",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_shoulder_rot_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_shoulder_rot_z",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_u_arm_rot_x",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_u_arm_rot_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_u_arm_rot_z",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_f_arm_rot_x",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_f_arm_rot_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_f_arm_rot_z",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_hand_rot_x",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_hand_rot_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_hand_rot_z",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "neck_rot_x",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "neck_rot_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "neck_rot_z",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "head_rot_x",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "head_rot_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "head_rot_z",
+          "Unit": "deg",
+          "Precision": 5
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Human_joint_ang",
+      "Name": "Human joint angles",
+      "Type": "hum_joint_ang",
+      "NbChannel": 84,
+      "ChFormat": "Float32",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "L5_S1_lat_bend",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "L5_S1_ax_bend",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "L5_S1_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "L4_L3_lat_bend",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "L4_L3_ax_rot",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "L4_L3_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "L1_T12_lat_bend",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "L1_T12_ax_rot",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "L1_T12_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "T8_T9_lat_bend",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "T9_T8_ax_rot",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "T9_T8_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "T1_C7_lat_bend",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "T1_C7_ax_rot",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "T1_C7_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "C1_head_lat_bend",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "C1_head_ax_rot",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "C1_head_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_T4_shoulder_abd",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_T4_shoulder_int_rot",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_T4_shoulder_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_shoulder_abd",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_shoulder_int_rot",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_shoulder_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_elbow_dev",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_elbow_pron",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_elbow_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_wrist_dev",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_wrist_dev",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_wrist_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_T4_shoulder_abd",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_T4_shoulder_int_rot",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_T4_shoulder_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_shoulder_abd",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_shoulder_int_rot",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_shoulder_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_elbow_dev",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_elbow_pron",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_elbow_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_wrist_dev",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_wrist_dev",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_wrist_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_hip_abd",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_hip_int_rot",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_hip_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_knee_abd",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_knee_int_rot",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_knee_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_ankle_abd",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_ankle_int_rot",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_ankle_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_ball_abd",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_ball_int_rot",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "r_ball_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_hip_abd",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_hip_int_rot",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_hip_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_knee_abd",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_knee_int_rot",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_knee_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_ankle_abd",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_ankle_int_rot",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_ankle_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_ball_abd",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_ball_int_rot",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "l_ball_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "T8_head_lat_bend",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "T8_head_ax_bend",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "T8_head_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "T8_left_u_arm_lat_bend",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "T8_left_u_arm_ax_bend",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "T8_left_u_arm_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "T8_right_u_arm_lat_bend",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "T8_right_u_arm_ax_bend",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "T8_right_u_arm_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "Pelvis_T8_lat_bend",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "Pelvis_T8_ax_bend",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "Pelvis_T8_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "Vert_Pelvis_lat_bend",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "Vert_Pelvis_ax_bend",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "Vert_Pelvis_flex",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "Vert_T8_lat_bend",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "Vert_T8_ax_bend",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "Vert_T8_flex",
+          "Unit": "deg",
+          "Precision": 5
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Human_ergo_features",
+      "Name": "Human ergo features",
+      "Type": "hum_ergo_feat",
+      "NbChannel": 8,
+      "ChFormat": "Float32",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "position_Pelvis_z",
+          "Unit": "m",
+          "Precision": 5
+        },
+        {
+          "Label": "Pelvis_T8_x",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "Pelvis_T8_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "Pelvis_T8_z",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "jLeftShoulder_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "jLeftShoulder_z",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "jRightShoulder_y",
+          "Unit": "deg",
+          "Precision": 5
+        },
+        {
+          "Label": "jRightShoulder_z",
+          "Unit": "deg",
+          "Precision": 5
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Xsens",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    }
+  ]
+}
