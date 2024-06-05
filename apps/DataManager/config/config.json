@@ -1,0 +1,8 @@
+{
+  "Name": "AugmentX Data Manager",
+  "DataPath": "D:\\Data",
+  "UdpStreamIp": "127.0.0.1",
+  "UdpStreamPort": 8094,
+  "FlushIntervalInSeconds": 600,
+  "BufferSize": 4096
+}

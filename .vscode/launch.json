@@ -1,0 +1,156 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      // Use IntelliSense to find out which attributes exist for C# debugging
+      // Use hover for the description of the existing attributes
+      // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+      "name": "Debug CameraCapture",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-cameracapture",
+      // If you have changed target frameworks, make sure to update the program path.
+      "program": "${workspaceFolder}/apps/CameraCapture/bin/Debug/net6.0-windows/CameraCapture.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/apps/CameraCapture/bin/Debug/net6.0-windows",
+      // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      // Use IntelliSense to find out which attributes exist for C# debugging
+      // Use hover for the description of the existing attributes
+      // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+      "name": "Debug CaptivClient",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-captivclient",
+      // If you have changed target frameworks, make sure to update the program path.
+      "program": "${workspaceFolder}/apps/CaptivClient/bin/Debug/net6.0-windows/CaptivClient.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/apps/CaptivClient/bin/Debug/net6.0-windows",
+      // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },    
+    {
+      // Use IntelliSense to find out which attributes exist for C# debugging
+      // Use hover for the description of the existing attributes
+      // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+      "name": "Debug DataManager",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-datamanager",
+      // If you have changed target frameworks, make sure to update the program path.
+      "program": "${workspaceFolder}/apps/DataManager/bin/Debug/net6.0-windows/DataManager.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/apps/DataManager/bin/Debug/net6.0-windows",
+      // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      // Use IntelliSense to find out which attributes exist for C# debugging
+      // Use hover for the description of the existing attributes
+      // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+      "name": "Debug EmpaticaClient",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-empaticaclient",
+      // If you have changed target frameworks, make sure to update the program path.
+      "program": "${workspaceFolder}/apps/EmpaticaClient/bin/Debug/net6.0-windows/EmpaticaClient.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/apps/EmpaticaClient/bin/Debug/net6.0-windows",
+      // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      // Use IntelliSense to find out which attributes exist for C# debugging
+      // Use hover for the description of the existing attributes
+      // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+      "name": "Debug EquivitalClient",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-equivitalclient",
+      // If you have changed target frameworks, make sure to update the program path.
+      "program": "${workspaceFolder}/apps/EquivitalClient/bin/Debug/net6.0-windows/EquivitalClient.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/apps/EquivitalClient/bin/Debug/net6.0-windows",
+      // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },    
+    {
+      // Use IntelliSense to find out which attributes exist for C# debugging
+      // Use hover for the description of the existing attributes
+      // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+      "name": "Debug ErgoPak",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-ergopakclient",
+      // If you have changed target frameworks, make sure to update the program path.
+      "program": "${workspaceFolder}/apps/ErgoPAK/bin/Debug/net6.0-windows/ErgoPAKClient.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/apps/ErgoPAK/bin/Debug/net6.0-windows",
+      // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },    
+    {
+      // Use IntelliSense to find out which attributes exist for C# debugging
+      // Use hover for the description of the existing attributes
+      // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+      "name": "Debug KeMoStreamer",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-kemostreamer",
+      // If you have changed target frameworks, make sure to update the program path.
+      "program": "${workspaceFolder}/apps/KeMoStreamer/bin/Debug/net6.0-windows/KeMoStreamer.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/apps/KeMoStreamer/bin/Debug/net6.0-windows",
+      // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      // Use IntelliSense to find out which attributes exist for C# debugging
+      // Use hover for the description of the existing attributes
+      // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+      "name": "Debug MoticonClient",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-moticonclient",
+      // If you have changed target frameworks, make sure to update the program path.
+      "program": "${workspaceFolder}/apps/MoticonClient/bin/Debug/net6.0-windows/MoticonClient.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/apps/MoticonClient/bin/Debug/net6.0-windows",
+      // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },    
+    {
+      "name": ".NET Core Attach",
+      "type": "coreclr",
+      "request": "attach"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Debug EmpaticaClient & DataManager",
+      "configurations": [
+        "Debug DataManager",
+        "Debug EmpaticaClient"
+      ],
+      "stopAll": true
+    },
+    {
+      "name": "Debug KeMoStreamer & DataManager",
+      "configurations": [
+        "Debug DataManager",
+        "Debug KeMoStreamer"
+      ],
+      "stopAll": true
+    }
+  ]
+}

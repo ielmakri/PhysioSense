@@ -1,0 +1,1712 @@
+{
+  "Name": "TEA",                  /* Free to edit */
+  "Ip": "127.0.0.1",              /* Edit only when Captiv software IP address differs */
+  "Port": 7652,                   /* Edit only when Captiv software port number differs */
+  "Streamers": [
+    {
+      "Name": "T-Rec 1022",       /* Do NOT edit, it will be overwritten by Captiv */
+      "Type": "EMG 582",          /* Edit only if the sensor name differs or a new sensor is added*/
+      "NbChannel": 1,             /* Do NOT edit, it will be overwritten by Captiv */
+      "ChFormat": "Double64",     /* Do NOT edit, it will be overwritten by Captiv */
+      "SRate": 128,               /* Do NOT edit, it will be overwritten by Captiv */
+      "Channels": [
+        {
+          "Label": "",            /* Edit to change the label in data logs */
+          "Unit": "µV",           /* Do NOT edit, it will be overwritten by Captiv */
+          "Precision": 3          /* Edit to change the precision in data logs and recorder app */
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "TEA",    /* Free to edit */
+        "Model": "T-Sens sEMG",   /* Free to edit */
+        "Serial": "",             /* Free to edit */
+        "Config": "",             /* Free to edit */
+        "Location": ""            /* Free to edit */
+      },
+      "Sync": {
+        "TimeSource": "Mod2",     /* Edit to change timestamp source (Mod0, Mod1, Mod2) */
+        "OffsetMean": 0.13,       /* Edit to change latency for this specific stream */
+        "CanDropSamples": true,   /* Edit to indicate if there could be dropped samples */
+        "Ipo": "Clocksync",             /* Edit to change inlet processing options (None, Clocksync, Dejitter, Monotonize, Threadsafe, All) for recorder app */
+        "Opo": "Monotonize",             /* Edit to change outlet processing options (None, Monotonize, Dejitter, Ets4Dsr, All) for client app */
+        "DriftCoeff": 0.001,      /* Edit to change the coefficient drift update algorithm (typical: 0.01->0.0001) */
+        "JitterCoeff": 0.8
+      }
+    },                            /* Same remarks apply for the rest: */
+    {
+      "Name": "T-Rec 1022",
+      "Type": "EMG 583",
+      "NbChannel": 1,
+      "ChFormat": "Double64",
+      "SRate": 128,
+      "Channels": [
+        {
+          "Label": "",
+          "Unit": "µV",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "TEA",
+        "Model": "T-Sens sEMG",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod2",
+        "OffsetMean": 0.13,
+        "CanDropSamples": true,
+        "Ipo": "Clocksync",
+        "Opo": "Monotonize",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "Name": "T-Rec 1022",
+      "Type": "FSR 133",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "Ch1",
+          "Unit": "g/cm²",
+          "Precision": 0
+        },
+        {
+          "Label": "Ch2",
+          "Unit": "g/cm²",
+          "Precision": 0
+        },
+        {
+          "Label": "Ch3",
+          "Unit": "g/cm²",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "TEA",
+        "Model": "T-Sens FSR",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod2",
+        "OffsetMean": 0.13,
+        "CanDropSamples": true,
+        "Ipo": "Clocksync",
+        "Opo": "Monotonize",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "Name": "TEA-T-Rec 1022",
+      "Type": "FSR 134",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "Ch1",
+          "Unit": "g/cm²",
+          "Precision": 0
+        },
+        {
+          "Label": "Ch2",
+          "Unit": "g/cm²",
+          "Precision": 0
+        },
+        {
+          "Label": "Ch3",
+          "Unit": "g/cm²",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "TEA",
+        "Model": "T-Sens FSR",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod2",
+        "OffsetMean": 0.13,
+        "CanDropSamples": true,
+        "Ipo": "Clocksync",
+        "Opo": "Monotonize",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "Name": "T-Rec 1022",
+      "Type": "T°C 120",
+      "NbChannel": 1,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "T",
+          "Unit": "°C",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "TEA",
+        "Model": "T-Sens Temperature",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod2",
+        "OffsetMean": 0.38,
+        "CanDropSamples": true,
+        "Ipo": "Clocksync",
+        "Opo": "Monotonize",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "Name": "T-Rec 1022",
+      "Type": "ECG 215",
+      "NbChannel": 1,
+      "ChFormat": "Double64",
+      "SRate": 256,
+      "Channels": [
+        {
+          "Label": "",
+          "Unit": "µV",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "TEA",
+        "Model": "T-Sens ECG",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod2",
+        "OffsetMean": 0.055,
+        "CanDropSamples": true,
+        "Ipo": "Clocksync",
+        "Opo": "Monotonize",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "Name": "T-Rec 1022",
+      "Type": "LOAD CELL 32",
+      "NbChannel": 1,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "",
+          "Unit": "N",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "TEA",
+        "Model": "T-Sens Load cell",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod2",
+        "OffsetMean": 0.38,
+        "CanDropSamples": true,
+        "Ipo": "Clocksync",
+        "Opo": "Monotonize",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "Name": "T-Rec 1022",
+      "Type": "MOTION 1980",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 64,
+      "Channels": [
+        {
+          "Label": "",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qw",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "TEA",
+        "Model": "T-Sens Motion",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod2",
+        "OffsetMean": 0.09,
+        "CanDropSamples": true,
+        "Ipo": "Clocksync",
+        "Opo": "Monotonize",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "Name": "T-Rec 1022",
+      "Type": "MOTION 1981",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 64,
+      "Channels": [
+        {
+          "Label": "",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qw",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "TEA",
+        "Model": "T-Sens Motion",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod2",
+        "OffsetMean": 0.09,
+        "CanDropSamples": true,
+        "Ipo": "Clocksync",
+        "Opo": "Monotonize",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "Name": "T-Rec 1022",
+      "Type": "MOTION 1982",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 64,
+      "Channels": [
+        {
+          "Label": "",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qw",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "TEA",
+        "Model": "T-Sens Motion",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod2",
+        "OffsetMean": 0.09,
+        "CanDropSamples": true,
+        "Ipo": "Clocksync",
+        "Opo": "Monotonize",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "Name": "T-Rec 1022",
+      "Type": "MOTION 1983",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 64,
+      "Channels": [
+        {
+          "Label": "",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qw",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "TEA",
+        "Model": "T-Sens Motion",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod2",
+        "OffsetMean": 0.09,
+        "CanDropSamples": true,
+        "Ipo": "Clocksync",
+        "Opo": "Monotonize",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "Name": "T-Rec 1022",
+      "Type": "MOTION 1984",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 64,
+      "Channels": [
+        {
+          "Label": "",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qw",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "TEA",
+        "Model": "T-Sens Motion",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod2",
+        "OffsetMean": 0.09,
+        "CanDropSamples": true,
+        "Ipo": "Clocksync",
+        "Opo": "Monotonize",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "Name": "T-Rec 1022",
+      "Type": "MOTION 1985",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 64,
+      "Channels": [
+        {
+          "Label": "",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qw",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "TEA",
+        "Model": "T-Sens Motion",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod2",
+        "OffsetMean": 0.09,
+        "CanDropSamples": true,
+        "Ipo": "Clocksync",
+        "Opo": "Monotonize",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "Name": "T-Rec 1022",
+      "Type": "MOTION 1986",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 64,
+      "Channels": [
+        {
+          "Label": "",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qw",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "TEA",
+        "Model": "T-Sens Motion",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod2",
+        "OffsetMean": 0.09,
+        "CanDropSamples": true,
+        "Ipo": "Clocksync",
+        "Opo": "Monotonize",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "Name": "T-Rec 1022",
+      "Type": "MOTION 1987",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 64,
+      "Channels": [
+        {
+          "Label": "",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qw",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "TEA",
+        "Model": "T-Sens Motion",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod2",
+        "OffsetMean": 0.09,
+        "CanDropSamples": true,
+        "Ipo": "Clocksync",
+        "Opo": "Monotonize",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "Name": "T-Rec 1022",
+      "Type": "MOTION 1988",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 64,
+      "Channels": [
+        {
+          "Label": "",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qw",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "TEA",
+        "Model": "T-Sens Motion",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod2",
+        "OffsetMean": 0.09,
+        "CanDropSamples": true,
+        "Ipo": "Clocksync",
+        "Opo": "Monotonize",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "Name": "T-Rec 1022",
+      "Type": "MOTION 1989",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 64,
+      "Channels": [
+        {
+          "Label": "",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qw",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "TEA",
+        "Model": "T-Sens Motion",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod2",
+        "OffsetMean": 0.09,
+        "CanDropSamples": true,
+        "Ipo": "Clocksync",
+        "Opo": "Monotonize",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "Name": "T-Rec 1022",
+      "Type": "MOTION 1990",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 64,
+      "Channels": [
+        {
+          "Label": "",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qw",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "TEA",
+        "Model": "T-Sens Motion",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod2",
+        "OffsetMean": 0.09,
+        "CanDropSamples": true,
+        "Ipo": "Clocksync",
+        "Opo": "Monotonize",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "Name": "T-Rec 1022",
+      "Type": "MOTION 1991",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 64,
+      "Channels": [
+        {
+          "Label": "",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qw",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "TEA",
+        "Model": "T-Sens Motion",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod2",
+        "OffsetMean": 0.09,
+        "CanDropSamples": true,
+        "Ipo": "Clocksync",
+        "Opo": "Monotonize",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "Name": "T-Rec 1022",
+      "Type": "MOTION 1992",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 64,
+      "Channels": [
+        {
+          "Label": "",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qw",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "TEA",
+        "Model": "T-Sens Motion",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod2",
+        "OffsetMean": 0.09,
+        "CanDropSamples": true,
+        "Ipo": "Clocksync",
+        "Opo": "Monotonize",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "Name": "T-Rec 1022",
+      "Type": "MOTION 1993",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 64,
+      "Channels": [
+        {
+          "Label": "",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qw",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "TEA",
+        "Model": "T-Sens Motion",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod2",
+        "OffsetMean": 0.09,
+        "CanDropSamples": true,
+        "Ipo": "Clocksync",
+        "Opo": "Monotonize",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "Name": "T-Rec 1022",
+      "Type": "MOTION 1994",
+      "NbChannel": 4,
+      "ChFormat": "Double64",
+      "SRate": 64,
+      "Channels": [
+        {
+          "Label": "",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "",
+          "Unit": "qw",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "TEA",
+        "Model": "T-Sens Motion",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod2",
+        "OffsetMean": 0.09,
+        "CanDropSamples": true,
+        "Ipo": "Clocksync",
+        "Opo": "Monotonize",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "Name": "Motion",
+      "Type": "Orientation",
+      "NbChannel": 60,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "Head",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "Head",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "Head",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "Head",
+          "Unit": "qw",
+          "Precision": 3
+        },
+        {
+          "Label": "Back",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "Back",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "Back",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "Back",
+          "Unit": "qw",
+          "Precision": 3
+        },
+        {
+          "Label": "Hip",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "Hip",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "Hip",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "Hip",
+          "Unit": "qw",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Arm",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Arm",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Arm",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Arm",
+          "Unit": "qw",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Forearm",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Forearm",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Forearm",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Forearm",
+          "Unit": "qw",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Hand",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Hand",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Hand",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Hand",
+          "Unit": "qw",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Arm",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Arm",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Arm",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Arm",
+          "Unit": "qw",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Forearm",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Forearm",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Forearm",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Forearm",
+          "Unit": "qw",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Hand",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Hand",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Hand",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Hand",
+          "Unit": "qw",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Thigh",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Thigh",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Thigh",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Thigh",
+          "Unit": "qw",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Calf",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Calf",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Calf",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Calf",
+          "Unit": "qw",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Foot",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Foot",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Foot",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Foot",
+          "Unit": "qw",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Thigh",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Thigh",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Thigh",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Thigh",
+          "Unit": "qw",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Calf",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Calf",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Calf",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Calf",
+          "Unit": "qw",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Foot",
+          "Unit": "qx",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Foot",
+          "Unit": "qy",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Foot",
+          "Unit": "qz",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Foot",
+          "Unit": "qw",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "TEA",
+        "Model": "T-Sens Motion",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.08,
+        "CanDropSamples": true,
+        "Ipo": "All",
+        "Opo": "Monotonize",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "Name": "Motion",
+      "Type": "Position",
+      "NbChannel": 90,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "C1",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "C1",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "C1",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "L5",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "L5",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "L5",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "R_SJC",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "R_SJC",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "R_SJC",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "L_SJC",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "L_SJC",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "L_SJC",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "R_EJC",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "R_EJC",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "R_EJC",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "L_EJC",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "L_EJC",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "L_EJC",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "R_WJC",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "R_WJC",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "R_WJC",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "L_WJC",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "L_WJC",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "L_WJC",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "R_HJC",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "R_HJC",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "R_HJC",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "L_HJC",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "L_HJC",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "L_HJC",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "R_KJC",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "R_KJC",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "R_KJC",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "L_KJC",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "L_KJC",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "L_KJC",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "R_AJC",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "R_AJC",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "R_AJC",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "L_AJC",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "L_AJC",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "L_AJC",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Heel",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Heel",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "R_Heel",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Heel",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Heel",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "L_Heel",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "R_1stMetatarsalHead",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "R_1stMetatarsalHead",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "R_1stMetatarsalHead",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "L_1stMetatarsalHead",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "L_1stMetatarsalHead",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "L_1stMetatarsalHead",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "R_5thMetatarsalHead",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "R_5thMetatarsalHead",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "R_5thMetatarsalHead",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "L_5thMetatarsalHead",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "L_5thMetatarsalHead",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "L_5thMetatarsalHead",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "R_2ndMetacarpallHead",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "R_2ndMetacarpallHead",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "R_2ndMetacarpallHead",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "L_2ndMetacarpallHead",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "L_2ndMetacarpallHead",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "L_2ndMetacarpallHead",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "R_5thMetacarpallHead",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "R_5thMetacarpallHead",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "R_5thMetacarpallHead",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "L_5thMetacarpallHead",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "L_5thMetacarpallHead",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "L_5thMetacarpallHead",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "HeadVertex",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "HeadVertex",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "HeadVertex",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "Opisthocranion",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "Opisthocranion",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "Opisthocranion",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "Sellion",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "Sellion",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "Sellion",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "Gnathion",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "Gnathion",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "Gnathion",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "R_AuricularPoint",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "R_AuricularPoint",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "R_AuricularPoint",
+          "Unit": "z",
+          "Precision": 3
+        },
+        {
+          "Label": "L_AuricularPoint",
+          "Unit": "x",
+          "Precision": 3
+        },
+        {
+          "Label": "L_AuricularPoint",
+          "Unit": "y",
+          "Precision": 3
+        },
+        {
+          "Label": "L_AuricularPoint",
+          "Unit": "z",
+          "Precision": 3
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "TEA",
+        "Model": "T-Sens Motion",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.09,
+        "CanDropSamples": true,
+        "Ipo": "All",
+        "Opo": "Monotonize",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    }
+  ]
+}

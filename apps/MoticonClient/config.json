@@ -1,0 +1,520 @@
+{
+  "Name": "Moticon",               /* Free to edit */
+  "DeviceName": "Insole3",     /* Edit only when actual device name differs */
+  "APIKey": "67d83e9aa8ce4a4c82578bbb32fea52c",  /* NOT used */
+  "Path": "C:\\Program Files (x86)\\Empatica\\EmpaticaBLEServer\\EmpaticaBLEServer.exe",  /* NOT used */
+  "Ip": "127.0.0.1",          /* Edit only when Moticon Stream Server settings differs */
+  "Port": 8888,              /* Edit only when Moticon Stream Server settings differs */
+  "Streamers": [
+    {
+      "InletName": "Left_acc",
+      "Name": "Left acceleration",
+      "Type": "l_acc",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "AccX",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "AccY",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "AccZ",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Moticon",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Left_ang",
+      "Name": "Left angular",
+      "Type": "l_ang",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "AngX",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "AngY",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "AngZ",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Moticon",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Left_cop",
+      "Name": "Left cop",
+      "Type": "l_cop",
+      "NbChannel": 2,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "CopX",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "CopY",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Moticon",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Left_pressure",
+      "Name": "Left pressure",
+      "Type": "l_p",
+      "NbChannel": 16,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "p0",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p4",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p5",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p6",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p7",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p8",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p9",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p10",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p11",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p12",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p13",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p14",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p15",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Moticon",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Left_total_force",
+      "Name": "Left total force",
+      "Type": "l_f",
+      "NbChannel": 1,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "F",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Moticon",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Right_acc",
+      "Name": "Right acceleration",
+      "Type": "r_acc",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "AccX",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "AccY",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "AccZ",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Moticon",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Right_ang",
+      "Name": "Right angular",
+      "Type": "r_ang",
+      "NbChannel": 3,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "AngX",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "AngY",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "AngZ",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Moticon",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Right_cop",
+      "Name": "Right cop",
+      "Type": "r_cop",
+      "NbChannel": 2,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "CopX",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "CopY",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Moticon",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Right_pressure",
+      "Name": "Right pressure",
+      "Type": "r_p",
+      "NbChannel": 16,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "p0",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p1",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p2",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p3",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p4",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p5",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p6",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p7",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p8",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p9",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p10",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p11",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p12",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p13",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p14",
+          "Unit": "?",
+          "Precision": 0
+        },
+        {
+          "Label": "p15",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Moticon",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    },
+    {
+      "InletName": "Right_total_force",
+      "Name": "Right total force",
+      "Type": "r_f",
+      "NbChannel": 1,
+      "ChFormat": "Double64",
+      "SRate": 32,
+      "Channels": [
+        {
+          "Label": "F",
+          "Unit": "?",
+          "Precision": 0
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Moticon",
+        "Model": "",
+        "Serial": "",
+        "Config": "",
+        "Location": ""
+      },
+      "Sync": {
+        "TimeSource": "Mod0",
+        "OffsetMean": 0.0,
+        "CanDropSamples": false,
+        "Ipo": "Clocksync",
+        "Opo": "None",
+        "DriftCoeff": 0.001,
+        "JitterCoeff": 0.8
+      }
+    }
+  ]
+}

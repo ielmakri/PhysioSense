@@ -1,0 +1,28 @@
+ <Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<RootNamespace>DataManager</RootNamespace>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ApplicationIcon>resources\fm.ico</ApplicationIcon>
+	</PropertyGroup>
+	
+	<PropertyGroup>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>        
+	</PropertyGroup>  
+	
+
+	<ItemGroup>
+		<None Include="lsl.dll" CopyToOutputDirectory="Always" />
+		<None Include="config\**" CopyToOutputDirectory="PreserveNewest" />
+		
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="ScottPlot.WinForms" Version="4.1.45"/>
+		<PackageReference Include="MathNet.Numerics" Version="5.0.0"/>		
+		<PackageReference Include="System.Text.Json" Version="6.0.5"/>
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,3 @@
+[submodule "libs/libfmax-Csharp"]
+	path = libs/libfmax-Csharp
+	url = https://github.com/Augment-X/libfmax-Csharp.git

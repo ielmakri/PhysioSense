@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ApplicationIcon>resources\fm.ico</ApplicationIcon>
+	</PropertyGroup>
+	
+	<PropertyGroup>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>        
+	</PropertyGroup> 
+
+	<ItemGroup>
+		<None Include="lsl.dll" CopyToOutputDirectory="Always" />
+		<None Include="config.json" CopyToOutputDirectory="PreserveNewest" Condition="Exists('config.json')" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Emgu.CV.runtime.windows" Version="4.6.0.5131" />
+		<PackageReference Include="Emgu.CV.UI" Version="4.6.0.5131" />
+		<PackageReference Include="DirectShowLib" Version="1.0.0" />
+		<PackageReference Include="Emgu.CV.Bitmap" Version="4.6.0.5131" />
+	</ItemGroup>
+
+</Project>

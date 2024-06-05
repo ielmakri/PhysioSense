@@ -1,0 +1,70 @@
+{
+  "PortName": "COM2",              /* Edit only when ErgoPAK device COM port settings deviates */
+  "Streamers": [
+    {
+      "Name": "ErgoPAK",      /* Free to edit */
+      "Type": "force",        /* Free to edit */
+      "NbChannel": 8,         /* Do NOT edit */
+      "ChFormat": "Double64", /* Do NOT edit */
+      "SRate": 62.5,          /* Free to edit */
+      "Channels": [
+        {
+          "Label": "d1",      /* Edit to change the label in data logs */
+          "Unit": "N",        /* Edit to change the unit in data logs */
+          "Precision": 2      /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "d2",      /* Edit to change the label in data logs */
+          "Unit": "N",        /* Edit to change the unit in data logs */
+          "Precision": 2      /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "d3",      /* Edit to change the label in data logs */
+          "Unit": "N",        /* Edit to change the unit in data logs */
+          "Precision": 2      /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "d4",      /* Edit to change the label in data logs */
+          "Unit": "N",        /* Edit to change the unit in data logs */
+          "Precision": 2      /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "d5",      /* Edit to change the label in data logs */
+          "Unit": "N",        /* Edit to change the unit in data logs */
+          "Precision": 2      /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "d6",      /* Edit to change the label in data logs */
+          "Unit": "N",        /* Edit to change the unit in data logs */
+          "Precision": 2      /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "d7",      /* Edit to change the label in data logs */
+          "Unit": "N",        /* Edit to change the unit in data logs */
+          "Precision": 2      /* Edit to change the precision in data logs and recorder app */
+        },
+        {
+          "Label": "d8",      /* Edit to change the label in data logs */
+          "Unit": "N",        /* Edit to change the unit in data logs */
+          "Precision": 2      /* Edit to change the precision in data logs and recorder app */
+        }
+      ],
+      "Hardware": {
+        "Manufacturer": "Hoggan",   /* Free to edit */
+        "Model": "",                /* Free to edit */
+        "Serial": "",               /* Free to edit */
+        "Config": "",               /* Free to edit */
+        "Location": ""              /* Free to edit */
+      },
+      "Sync": {
+        "TimeSource": "Mod0",       /* Edit to change timestamp source (Mod0, Mod1, Mod2) */
+        "OffsetMean": 0.005,         /* Edit to change latency for this specific stream */
+        "CanDropSamples": false,    /* Edit to indicate if there could be dropped samples */
+        "Ipo": "None",              /* Edit to change inlet processing options (None, Clocksync, Dejitter, Monotonize, Threadsafe, All) for recorder app */
+        "Opo": "None",              /* Edit to change outlet processing options (None, Monotonize, Dejitter, Ets4Dsr, All) for client app */
+        "DriftCoeff": 0.001,        /* Edit to change the coefficient drift update algorithm (typical: 0.01->0.0001) */
+        "JitterCoeff": 0.8    
+      }
+    }   
+  ]
+}

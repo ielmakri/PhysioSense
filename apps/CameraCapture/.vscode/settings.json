@@ -1,0 +1,6 @@
+{
+    "docify.translateService.docstringFormat": "JavaDoc",
+    "docify.commentService.docstringFormat": "XML",
+    "docify.commentService.sidePanelReviewMode": false,
+    "docify.commentService.programmingLanguage": "c_sharp"
+}

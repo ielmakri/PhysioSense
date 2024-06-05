@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<RootNamespace>CaptivClient</RootNamespace>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ApplicationIcon>resources\fm.ico</ApplicationIcon>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>        
+	</PropertyGroup>  
+	
+	<ItemGroup>
+		<None Include="lsl.dll" CopyToOutputDirectory="Always" />
+		<None Include="config.json" CopyToOutputDirectory="PreserveNewest" Condition="Exists('config.json')"/>
+	</ItemGroup>
+
+
+</Project>

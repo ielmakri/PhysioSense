@@ -1,0 +1,3 @@
+[submodule "libs/libfmax-Csharp"]
+	path = libs/libfmax-Csharp
+	url = https://github.com/Flanders-Make-vzw/libfmax-Csharp.git

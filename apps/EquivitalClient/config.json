@@ -1,0 +1,447 @@
+{
+  "Name": "EQ",                           /* Free to edit */
+  "Ip": "127.0.0.1",                      /* Edit only when Equivital IP address differs */
+  "Port": 5001,                           /* Edit only when Equivital port  differs */
+  "Devices": [
+    {
+      "Name": "03420654",                 /* Edit if device name is changed */
+      "Streamers": [
+        {
+          "Name": "",                     /* Do NOT edit */
+          "Type": "acc",                  /* Free to edit */
+          "NbChannel": 3,                 /* Free to edit only if actual channel number differs */
+          "ChFormat": "Double64",         /* Free to edit only if actual channel data format differs */
+          "SRate": 5,                     /* Free to edit only if actual sRate differs */
+          "Channels": [
+            {
+              "Label": "ACX",             /* Do NOT edit */
+              "Unit": "?",                /* Free to edit */
+              "Precision": 1              /* Free to edit */
+            },
+            {
+              "Label": "ACY",             /* Do NOT edit */
+              "Unit": "?",                /* Free to edit */
+              "Precision": 1              /* Free to edit */
+            },
+            {
+              "Label": "ACZ",             /* Do NOT edit */
+              "Unit": "?",                /* Free to edit */
+              "Precision": 1              /* Free to edit */
+            }
+          ],
+          "Hardware": {
+            "Manufacturer": "Equivital",  /* Free to edit */
+            "Model": "eq02+ LifeMonitor", /* Free to edit */
+            "Serial": "",                 /* Free to edit */
+            "Config": "",                 /* Free to edit */
+            "Location": ""                /* Free to edit */
+          },
+          "Sync": {
+            "TimeSource": "Mod0",         /* Edit to change timestamp source (Mod0, Mod1, Mod2) */
+            "OffsetMean": 1.65,           /* Edit to change latency for this specific stream */
+            "CanDropSamples": true,       /* Edit to indicate if there could be dropped samples */
+            "Ipo": "Clocksync",                 /* Edit to change inlet processing options (None, Clocksync, Dejitter, Monotonize, Threadsafe, All) for recorder app */
+            "Opo": "None",                /* Edit to change outlet processing options (None, Monotonize, Dejitter, Ets4Dsr, All) for client app */
+            "DriftCoeff": 0.0,         /* Edit to change the coefficient drift update algorithm (typical: 0.01->0.0001) */
+            "JitterCoeff": 0.0
+          }
+        },                                /* Same remarks apply for the rest: */
+        {
+          "Name": "",
+          "Type": "brb",
+          "NbChannel": 1,
+          "ChFormat": "Double64",
+          "SRate": 5,
+          "Channels": [
+            {
+              "Label": "BRB",
+              "Unit": "rpm",
+              "Precision": 1
+            }
+          ],
+          "Hardware": {
+            "Manufacturer": "Equivital",
+            "Model": "eq02+ LifeMonitor",
+            "Serial": "",
+            "Config": "",
+            "Location": ""
+          },
+          "Sync": {
+            "TimeSource": "Mod0",
+            "OffsetMean": 1.65,
+            "CanDropSamples": true,
+            "Ipo": "Clocksync",
+            "Opo": "None",
+            "DriftCoeff": 0.0,
+            "JitterCoeff": 0.0
+          }
+        },
+        {
+          "Name": "",
+          "Type": "gsr",
+          "NbChannel": 1,
+          "ChFormat": "Double64",
+          "SRate": 5,
+          "Channels": [
+            {
+              "Label": "GSR",
+              "Unit": "μS",
+              "Precision": 1
+            }
+          ],
+          "Hardware": {
+            "Manufacturer": "Equivital",
+            "Model": "eq02+ LifeMonitor",
+            "Serial": "",
+            "Config": "",
+            "Location": ""
+          },
+          "Sync": {
+            "TimeSource": "Mod0",
+            "OffsetMean": 1.65,
+            "CanDropSamples": true,
+            "Ipo": "Clocksync",
+            "Opo": "None",
+            "DriftCoeff": 0.0,
+            "JitterCoeff": 0.0
+          }
+        },
+        {
+          "Name": "",
+          "Type": "skt",
+          "NbChannel": 1,
+          "ChFormat": "Double64",
+          "SRate": 5,
+          "Channels": [
+            {
+              "Label": "SKT",
+              "Unit": "°C",
+              "Precision": 1
+            }
+          ],
+          "Hardware": {
+            "Manufacturer": "Equivital",
+            "Model": "eq02+ LifeMonitor",
+            "Serial": "",
+            "Config": "",
+            "Location": ""
+          },
+          "Sync": {
+            "TimeSource": "Mod0",
+            "OffsetMean": 1.65,
+            "CanDropSamples": true,
+            "Ipo": "Clocksync",
+            "Opo": "None",
+            "DriftCoeff": 0.0,
+            "JitterCoeff": 0.0
+          }
+        },
+        {
+          "Name": "",
+          "Type": "hre",
+          "NbChannel": 1,
+          "ChFormat": "Double64",
+          "SRate": 5,
+          "Channels": [
+            {
+              "Label": "HRE",
+              "Unit": "bpm",
+              "Precision": 1
+            }
+          ],
+          "Hardware": {
+            "Manufacturer": "Equivital",
+            "Model": "eq02+ LifeMonitor",
+            "Serial": "",
+            "Config": "",
+            "Location": ""
+          },
+          "Sync": {
+            "TimeSource": "Mod0",
+            "OffsetMean": 1.65,
+            "CanDropSamples": true,
+            "Ipo": "Clocksync",
+            "Opo": "None",
+            "DriftCoeff": 0.0,
+            "JitterCoeff": 0.0
+          }
+        },
+        {
+          "Name": "",
+          "Type": "gen",
+          "NbChannel": 6,
+          "ChFormat": "String",
+          "SRate": 5,
+          "Channels": [
+            {
+              "Label": "BPP",
+              "Unit": "",
+              "Precision": 0
+            },
+            {
+              "Label": "BRC",
+              "Unit": "",
+              "Precision": 0
+            },
+            {
+              "Label": "HRC",
+              "Unit": "",
+              "Precision": 0
+            },
+            {
+              "Label": "MOT",
+              "Unit": "",
+              "Precision": 0
+            },
+            {
+              "Label": "OHS",
+              "Unit": "",
+              "Precision": 0
+            },
+            {
+              "Label": "SAI",
+              "Unit": "",
+              "Precision": 0
+            }
+          ],
+          "Hardware": {
+            "Manufacturer": "Equivital",
+            "Model": "eq02+ LifeMonitor",
+            "Serial": "",
+            "Config": "",
+            "Location": ""
+          },
+          "Sync": {
+            "TimeSource": "Mod0",
+            "OffsetMean": 1.65,
+            "CanDropSamples": true,
+            "Ipo": "Clocksync",
+            "Opo": "None",
+            "DriftCoeff": 0.0,
+            "JitterCoeff": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "03420744",
+      "Streamers": [
+        {
+          "Name": "",
+          "Type": "acc",
+          "NbChannel": 3,
+          "ChFormat": "Double64",
+          "SRate": 5,
+          "Channels": [
+            {
+              "Label": "ACX",
+              "Unit": "?",
+              "Precision": 1
+            },
+            {
+              "Label": "ACY",
+              "Unit": "?",
+              "Precision": 1
+            },
+            {
+              "Label": "ACZ",
+              "Unit": "?",
+              "Precision": 1
+            }
+          ],
+          "Hardware": {
+            "Manufacturer": "Equivital",
+            "Model": "eq02+ LifeMonitor",
+            "Serial": "",
+            "Config": "",
+            "Location": ""
+          },
+          "Sync": {
+            "TimeSource": "Mod0",
+           "OffsetMean": 1.65,
+            "CanDropSamples": true,
+            "Ipo": "Clocksync",
+            "Opo": "None",
+            "DriftCoeff": 0.0,
+            "JitterCoeff": 0.0
+          }
+        },
+        {
+          "Name": "",
+          "Type": "brb",
+          "NbChannel": 1,
+          "ChFormat": "Double64",
+          "SRate": 5,
+          "Channels": [
+            {
+              "Label": "BRB",
+              "Unit": "rpm",
+              "Precision": 1
+            }
+          ],
+          "Hardware": {
+            "Manufacturer": "Equivital",
+            "Model": "eq02+ LifeMonitor",
+            "Serial": "",
+            "Config": "",
+            "Location": ""
+          },
+          "Sync": {
+            "TimeSource": "Mod0",
+           "OffsetMean": 1.65,
+            "CanDropSamples": true,
+            "Ipo": "Clocksync",
+            "Opo": "None",
+            "DriftCoeff": 0.0,
+            "JitterCoeff": 0.0
+          }
+        },
+        {
+          "Name": "",
+          "Type": "gsr",
+          "NbChannel": 1,
+          "ChFormat": "Double64",
+          "SRate": 5,
+          "Channels": [
+            {
+              "Label": "GSR",
+              "Unit": "μS",
+              "Precision": 1
+            }
+          ],
+          "Hardware": {
+            "Manufacturer": "Equivital",
+            "Model": "eq02+ LifeMonitor",
+            "Serial": "",
+            "Config": "",
+            "Location": ""
+          },
+          "Sync": {
+            "TimeSource": "Mod0",
+           "OffsetMean": 1.65,
+            "CanDropSamples": true,
+            "Ipo": "Clocksync",
+            "Opo": "None",
+            "DriftCoeff": 0.0,
+            "JitterCoeff": 0.0
+          }
+        },
+        {
+          "Name": "",
+          "Type": "skt",
+          "NbChannel": 1,
+          "ChFormat": "Double64",
+          "SRate": 5,
+          "Channels": [
+            {
+              "Label": "SKT",
+              "Unit": "°C",
+              "Precision": 1
+            }
+          ],
+          "Hardware": {
+            "Manufacturer": "Equivital",
+            "Model": "eq02+ LifeMonitor",
+            "Serial": "",
+            "Config": "",
+            "Location": ""
+          },
+          "Sync": {
+            "TimeSource": "Mod0",
+           "OffsetMean": 1.65,
+            "CanDropSamples": true,
+            "Ipo": "Clocksync",
+            "Opo": "None",
+            "DriftCoeff": 0.0,
+            "JitterCoeff": 0.0
+          }
+        },
+        {
+          "Name": "",
+          "Type": "hre",
+          "NbChannel": 1,
+          "ChFormat": "Double64",
+          "SRate": 5,
+          "Channels": [
+            {
+              "Label": "HRE",
+              "Unit": "bpm",
+              "Precision": 1
+            }
+          ],
+          "Hardware": {
+            "Manufacturer": "Equivital",
+            "Model": "eq02+ LifeMonitor",
+            "Serial": "",
+            "Config": "",
+            "Location": ""
+          },
+          "Sync": {
+            "TimeSource": "Mod0",
+           "OffsetMean": 1.65,
+            "CanDropSamples": true,
+            "Ipo": "Clocksync",
+            "Opo": "None",
+            "DriftCoeff": 0.0,
+            "JitterCoeff": 0.0
+          }
+        },
+        {
+          "Name": "",
+          "Type": "gen",
+          "NbChannel": 6,
+          "ChFormat": "String",
+          "SRate": 5,
+          "Channels": [
+            {
+              "Label": "BPP",
+              "Unit": "",
+              "Precision": 0
+            },
+            {
+              "Label": "BRC",
+              "Unit": "",
+              "Precision": 0
+            },
+            {
+              "Label": "HRC",
+              "Unit": "",
+              "Precision": 0
+            },
+            {
+              "Label": "MOT",
+              "Unit": "",
+              "Precision": 0
+            },
+            {
+              "Label": "OHS",
+              "Unit": "",
+              "Precision": 0
+            },
+            {
+              "Label": "SAI",
+              "Unit": "",
+              "Precision": 0
+            }
+          ],
+          "Hardware": {
+            "Manufacturer": "Equivital",
+            "Model": "eq02+ LifeMonitor",
+            "Serial": "",
+            "Config": "",
+            "Location": ""
+          },
+          "Sync": {
+            "TimeSource": "Mod0",
+           "OffsetMean": 1.65,
+            "CanDropSamples": true,
+            "Ipo": "Clocksync",
+            "Opo": "None",
+            "DriftCoeff": 0.0,
+            "JitterCoeff": 0.0
+          }
+        }
+      ]
+    }
+  ]
+}
