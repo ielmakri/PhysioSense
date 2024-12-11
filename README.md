@@ -385,7 +385,14 @@ git push -u ext main --recurse-submodules=on-demand -f
 2. [Publish your apps](#publishing-apps)
 2. Attach your published app (executables, config files etc.) to the release assets
 
+# Acknowledgments
 
+The development of the **PhysioSense** framework was supported by the following projects:
+
+- Financial support from **Flanders Make** through the INFRA project **[AugmentX](https://augmentx.be/)**.
+- The European Union's Horizon 2020 research and innovation program under Grant Agreements No. 871237 (SOPHIA) and 101070596 (euROBIN).
+- The **Flanders Make** SBO projects **Wellficiency** and **Autocraft**.
+  
 ---
 # Contact
 augmentx@flandersmake.be 
