@@ -397,4 +397,10 @@ The development of the **PhysioSense** framework was supported by the following 
 # Contact
 augmentx@flandersmake.be 
 
+## Reference
+
+If you use PhysioSense in your research, please cite:
+
+El Makrini, I., Turcksin, T., Incirci, T., Thiery, E., Kindt, S., Lovecchio, R., ... & Vanderborght, B. (2025). PhysioSense: An Open-Source Multi-Modal Monitoring Framework for Human Movement and Behavior Analysis. IEEE Robotics & Automation Magazine.
+
 
