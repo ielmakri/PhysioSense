@@ -397,6 +397,7 @@ The development of the **PhysioSense** framework was supported by the following 
 # Contact
 
 Human activity assessment at Brubotics - AugmentX : https://www.youtube.com/watch?v=9BoyIMsJMug
+
 e-mail: augmentx@flandersmake.be 
 
 ## Reference
